@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Harias Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body{
+      background-color: bisque;
+  }
+  /* From Uiverse.io by vinodjangid07 */ 
+
+</style>
+<script>
+    function flipCard(card) {
+        card.classList.toggle("flipped");
+    }
+    </script>
+    
+<body>
+    <header>
+        <div class="logo">
+            <h1>Harias Restaurant</h1>
+            <p>Authentic South Indian Dishes & Meals</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="booking/index.php">Booking</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <!-- Biriyani -->
+                <div class="dish-card" ontouchstart="flipCard(this)">
+                    <div class="dish-inner">
+                        <div class="dish-front">
+                            <img src="images/biriyani.jpg" alt="Biriyani">
+                            <h3>Biriyani</h3>
+                        </div>
+                        <div class="dish-back">
+                            <h3>Biriyani</h3>
+                            <p>Spiced rice with tender meat.</p>
+                            <span>₹300</span>
+                            <button class="button">
+                                <svg class="svgIcon" viewBox="0 0 384 512">
+                                  <path
+                                    d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+                                  ></path>
+                                </svg>
+                              </button>                              
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Porotta -->
+                <div class="dish-card" ontouchstart="flipCard(this)">
+                    <div class="dish-inner">
+                        <div class="dish-front">
+                            <img src="images/porotta.jpg" alt="Porotta">
+                            <h3>Porotta</h3>
+                        </div>
+                        <div class="dish-back">
+                            <h3>Porotta</h3>
+                            <p>Soft and flaky flatbread, perfect with curry.</p>
+                            <span>₹50</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fried Rice -->
+                <div class="dish-card" ontouchstart="flipCard(this)">
+                    <div class="dish-inner">
+                        <div class="dish-front">
+                            <img src="images/chicken fridrice.jpg" alt="Fried Rice">
+                            <h3>Fried Rice</h3>
+                        </div>
+                        <div class="dish-back">
+                            <h3>Fried Rice</h3>
+                            <p>Stir-fried rice with vegetables and meat.</p>
+                            <span>₹200</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chicken Chilli -->
+                <div class="dish-card" ontouchstart="flipCard(this)">
+                    <div class="dish-inner">
+                        <div class="dish-front">
+                            <img src="images/chilli chicken.jpg" alt="Chicken Chilli">
+                            <h3>Chicken Chilli</h3>
+                        </div>
+                        <div class="dish-back">
+                            <h3>Chicken Chilli</h3>
+                            <p>Spicy fried chicken with tangy sauce.</p>
+                            <span>₹250</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dragon Chicken -->
+                <div class="dish-card" ontouchstart="flipCard(this)">
+                    <div class="dish-inner">
+                        <div class="dish-front">
+                            <img src="images/dragon chicken.jpg" alt="Dragon Chicken">
+                            <h3>Dragon Chicken</h3>
+                        </div>
+                        <div class="dish-back">
+                            <h3>Dragon Chicken</h3>
+                            <p>Sweet and spicy Indo-Chinese delight.</p>
+                            <span>₹280</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Honey Chicken -->
+                <div class="dish-card" ontouchstart="flipCard(this)">
+                    <div class="dish-inner">
+                        <div class="dish-front">
+                            <img src="images/honey chicken.jpg" alt="Honey Chicken">
+                            <h3>Honey Chicken</h3>
+                        </div>
+                        <div class="dish-back">
+                            <h3>Honey Chicken</h3>
+                            <p>Glazed with honey and mild spices.</p>
+                            <span>₹260</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pepper Chicken -->
+                <div class="dish-card" ontouchstart="flipCard(this)">
+                    <div class="dish-inner">
+                        <div class="dish-front">
+                            <img src="images/pepper chicken.jpg" alt="Pepper Chicken">
+                            <h3>Pepper Chicken</h3>
+                        </div>
+                        <div class="dish-back">
+                            <h3>Pepper Chicken</h3>
+                            <p>Loaded with crushed black pepper.</p>
+                            <span>₹270</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Butter Garlic Chicken -->
+                <div class="dish-card" ontouchstart="flipCard(this)">
+                    <div class="dish-inner">
+                        <div class="dish-front">
+                            <img src="images/bbutter arlic chicken.jpg" alt="Butter Garlic Chicken">
+                            <h3>Butter Garlic Chicken</h3>
+                        </div>
+                        <div class="dish-back">
+                            <h3>Butter Garlic Chicken</h3>
+                            <p>Rich buttery sauce with garlic flavor.</p>
+                            <span>₹290</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dish-card" ontouchstart="flipCard(this)">
+                    <div class="dish-inner">
+                        <div class="dish-front">
+                            <img src="images/mutton curry.jpg" alt="Mutton Curry">
+                            <h3>Mutton Curry</h3>
+                        </div>
+                        <div class="dish-back">
+                            <h3>Mutton Curry</h3>
+                            <p>Rich and flavorful traditional curry.</p>
+                            <span>₹320</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dish-card" ontouchstart="flipCard(this)">
+                    <div class="dish-inner">
+                        <div class="dish-front">
+                            <img src="images/mutton pepper fry.jpg" alt="Mutton Pepper Fry">
+                            <h3>Mutton Pepper Fry</h3>
+                        </div>
+                        <div class="dish-back">
+                            <h3>Mutton Pepper Fry</h3>
+                            <p>Spicy and aromatic mutton stir-fry.</p>
+                            <span>₹340</span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="dish-card" ontouchstart="flipCard(this)">
+                        <div class="dish-inner">
+                            <div class="dish-front">
+                                <img src="images/idli.jpg" alt="Idli">
+                                <h3>Idli</h3>
+                            </div>
+                            <div class="dish-back">
+                                <h3>Idli</h3>
+                                <p>Soft steamed rice cakes.</p>
+                                <span>₹50</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="dish-card" ontouchstart="flipCard(this)">
+                        <div class="dish-inner">
+                            <div class="dish-front">
+                                <img src="images/checken noodles.jpg" alt="Chicken Noodles">
+                                <h3>Chicken Noodles</h3>
+                            </div>
+                            <div class="dish-back">
+                                <h3>Chicken Noodles</h3>
+                                <p>Stir-fried noodles with chicken.</p>
+                                <span>₹180</span>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Harias Restaurant. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle("flipped");
+        }
+    </script>
+</body>
+</html>
